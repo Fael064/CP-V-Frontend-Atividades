@@ -8,6 +8,36 @@ OBS: A ideia da assinatura foi abandonada, colocaria assinatura caso fosse mais 
 ## 2. Pesquisa e referências
 
 **Pesquisa**:
+Como comunicam a refeição: falam de macros e gramas, ou de praticidade e sabor?
+MR.fit: Nenhum. 
+Quero Mais Fit: Não diz sobre macros, mas diz sobre gramas, a quantidade de comida que vai na marmita. Disponibiliza os produtos/serviços. 
+Marmita Fitness: Comunicam de macros e gramas, calorias, sabor e praticidade. O mais completo. 
+
+A linguagem pressupõe que o visitante já sabe de nutrição, ou explica para iniciante?
+MR.fit: Nenhuma das duas. 
+Quero Mais Fit: Pressupõe
+Marmita Fitness: Pressupõe
+
+Que cores, fotos e tom de voz usam?
+
+MR.fit: Imagens ilustrativas. Cor verde fazendo referência a saúde. Tom de voz formal. 
+Quero Mais Fit: Utiliza imagens coloridas e ilustrativas, algumas verdadeiras. Cores que chamam a atenção e não cansam a vista, como roxo nos ícones. Tom de voz acolhedor e empático. 
+Marmita Fitness: Cores fortes e chamativas (Vermelho, verde, roxo, lilás, rosa, azul marinho)  que combinam com o site e a marca. Imagens ilustrativas. Utilizam um tom de voz acolhedor e empático. 
+Como pedem o contato: formulário, WhatsApp, botão fixo? O que pedem do visitante?
+MR.fit: WhatsApp
+Quero Mais Fit: WhatsApp. 
+Marmita Fitness: Redes sociais. 
+
+O preço aparece logo? Como é a assinatura?
+MR.fit: Não, e não possui assinatura. 
+Quero Mais Fit: Sim e não possui assinatura. 
+Marmita Fitness: Sim, e não possui assinatura. 
+
+O que te irritou ou confundiu na navegação?
+MR.fit: Confuso em onde saber sobre os produtos, marmitas, forma de contato, layout estranho e antigo.  
+Quero Mais Fit: Nada. 
+Marmita Fitness: Forma de contato. 
+
 
 **Referências**: 
 - Mr. Fit: https://mrfitfranquias.com.br/index.html
