@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prato Base | Marmitas para quem está começando</title>
+    <meta name="description" content="Marmitas prontas para quem treina e não tem tempo de cozinhar, com os nutrientes explicados de um jeito simples.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+        @theme {
+            
+            --color-marca: #2F7D4F;        
+            --color-acao: #6B3FA0;         
+            --color-acao-escuro: #55318A;  
+            --color-fundo: #FAF7F2;        
+            --color-tinta: #2C1E18;        
+
+           
+            --color-rosa-bg: #FCE4EC;
+            --color-rosa-tx: #880E4F;
+            --color-laranja-bg: #FFE8CC;
+            --color-laranja-tx: #8A4B00;
+            --color-azul-bg: #E1F0FA;
+            --color-azul-tx: #0B4F7A;
+
+            --font-titulo: "Poppins", sans-serif;
+            --font-corpo: "Nunito", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-fundo text-tinta font-corpo antialiased">
+
+    <!-- 1. MENU -->
+    <header class="sticky top-0 z-10 bg-fundo/95 backdrop-blur border-b border-tinta/10">
+        <nav class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <a href="#" class="font-titulo text-xl font-bold">
+                Prato<span class="text-marca">Base</span>
+            </a>
+
+            <ul class="hidden md:flex gap-8 text-sm font-semibold">
+                <li><a href="#como-funciona" class="hover:text-marca">Como funciona</a></li>
+                <li><a href="#cardapio" class="hover:text-marca">Cardápio</a></li>
+                <li><a href="#contato" class="hover:text-marca">Contato</a></li>
+            </ul>
+
+            <a href="#contato" class="bg-acao hover:bg-acao-escuro text-white px-5 py-2.5 text-sm font-bold rounded-xl">
+                Quero receber o cardápio
+            </a>
+
+        </nav>
+    </header>
+
+  <!-- 2. HERO -->
+    <section class="max-w-5xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+
+        <div>
+            <p class="text-sm font-bold text-marca">Para quem está começando a treinar</p>
+            <h1 class="mt-3 font-titulo text-4xl md:text-5xl font-bold leading-tight text-balance">
+                Comer bem depois do treino não precisa ser complicado.
+            </h1>
+            <p class="mt-6 text-lg text-tinta/80">
+                Marmitas prontas, feitas para quem treina e não tem tempo de cozinhar.
+                Em cada uma você vê o que tem no prato e entende por que ele ajuda no seu treino.
+            </p>
+            <div class="mt-8 flex flex-wrap items-center gap-4">
+                <a href="#contato" class="bg-acao hover:bg-acao-escuro text-white px-6 py-3 font-bold rounded-xl">
+                    Quero receber o cardápio
+                </a>
+                <a href="#como-funciona" class="font-bold underline underline-offset-4 decoration-tinta/30 hover:decoration-tinta">
+                    Entender os nutrientes
+                </a>
+            </div>
+        </div>
+
+        <img src="marmita.png"
+             alt="Marmita aberta, vista de cima, com frango grelhado fatiado, arroz integral e salada de tomate e repolho roxo"
+             class="w-full max-w-sm mx-auto md:max-w-none aspect-[4/5] object-cover rounded-3xl">
+
+    </section>
+
+    <!-- 3. COMO FUNCIONA (explicação para iniciante) -->
+    <section id="como-funciona" class="scroll-mt-20 border-t border-tinta/10">
+        <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
+
+            <h2 class="font-titulo text-3xl font-bold">Entenda o que você está comendo</h2>
+            <p class="mt-3 max-w-2xl text-tinta/80">
+                Em cada marmita você encontra três números: proteína, carboidrato e gordura. É isso que eles fazem no seu corpo.
+            </p>
+
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <article class="bg-white rounded-2xl border border-tinta/10 p-6">
+                    <p class="font-titulo text-2xl font-bold text-marca">01</p>
+                    <h3 class="mt-3 font-titulo text-lg font-bold">Proteína</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-tinta/80">
+                        A proteína ajuda você a construir e recuperar músculo. Pense numa obra: o músculo é a casa, e a proteína são os materiais.
+                    </p>
+                </article>
+
+                <article class="bg-white rounded-2xl border border-tinta/10 p-6">
+                    <p class="font-titulo text-2xl font-bold text-marca">02</p>
+                    <h3 class="mt-3 font-titulo text-lg font-bold">Carboidrato</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-tinta/80">
+                        O carboidrato é o combustível do treino. Sem ele, falta energia para render. Arroz, batata-doce e massas integrais são exemplos.
+                    </p>
+                </article>
+
+                <article class="bg-white rounded-2xl border border-tinta/10 p-6">
+                    <p class="font-titulo text-2xl font-bold text-marca">03</p>
+                    <h3 class="mt-3 font-titulo text-lg font-bold">Gordura</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-tinta/80">
+                        Gordura não é vilã. Na quantidade certa, ela dá energia e ajuda o corpo a aproveitar algumas vitaminas. Azeite e abacate são exemplos.
+                    </p>
+                </article>
+
+            </div>
+
+            <p class="mt-6 text-xs text-tinta/70">
+                Informação geral, que não substitui a orientação de um nutricionista.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- 4. CARDÁPIO -->
+    <section id="cardapio" class="scroll-mt-20 border-t border-tinta/10">
+        <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
+
+            <h2 class="font-titulo text-3xl font-bold">Cardápio de exemplo</h2>
+            <p class="mt-3 max-w-2xl text-tinta/80">
+                Cada prato mostra as calorias e os gramas de proteína, carboidrato e gordura.
+            </p>
+
+            <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Prato 1 -->
+                <article class="bg-white rounded-2xl border border-tinta/10 overflow-hidden">
+                    <img src="prato1-frango.png" alt="Prato com frango grelhado, arroz integral e brócolis" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="p-5">
+                        <h3 class="font-titulo font-bold">Frango grelhado, arroz integral e brócolis</h3>
+                        <dl class="mt-4 grid grid-cols-4 gap-2 text-center">
+                            <div><dt class="text-xs text-tinta/70">Calorias</dt><dd class="font-bold">440</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Proteína</dt><dd class="font-bold">38 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Carbo</dt><dd class="font-bold">52 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Gordura</dt><dd class="font-bold">9 g</dd></div>
+                        </dl>
+                    </div>
+                </article>
+
+                <!-- Prato 2 -->
+                <article class="bg-white rounded-2xl border border-tinta/10 overflow-hidden">
+                    <img src="prato2-carne.png" alt="Marmitas com carne moída, purê e legumes" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="p-5">
+                        <h3 class="font-titulo font-bold">Carne moída, purê e legumes</h3>
+                        <dl class="mt-4 grid grid-cols-4 gap-2 text-center">
+                            <div><dt class="text-xs text-tinta/70">Calorias</dt><dd class="font-bold">450</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Proteína</dt><dd class="font-bold">34 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Carbo</dt><dd class="font-bold">48 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Gordura</dt><dd class="font-bold">14 g</dd></div>
+                        </dl>
+                    </div>
+                </article>
+
+                <!-- Prato 3 (massa) -->
+                <article class="bg-white rounded-2xl border border-tinta/10 overflow-hidden">
+                    <div class="relative">
+                        <img src="prato3-macarrao.png" alt="Macarrão integral com frango desfiado e molho de tomate, decorado com manjericão" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                        <span class="absolute left-3 top-3 rounded-md bg-laranja-bg text-laranja-tx text-xs font-bold px-2 py-1">Massa</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-titulo font-bold">Macarrão integral com frango desfiado ao molho de tomate</h3>
+                        <dl class="mt-4 grid grid-cols-4 gap-2 text-center">
+                            <div><dt class="text-xs text-tinta/70">Calorias</dt><dd class="font-bold">460</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Proteína</dt><dd class="font-bold">32 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Carbo</dt><dd class="font-bold">60 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Gordura</dt><dd class="font-bold">10 g</dd></div>
+                        </dl>
+                    </div>
+                </article>
+
+                <!-- Prato 4 -->
+                <article class="bg-white rounded-2xl border border-tinta/10 overflow-hidden">
+                    <img src="prato4-peixe.png" alt="Filé grelhado com arroz branco e brócolis com tomate refogados" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="p-5">
+                        <h3 class="font-titulo font-bold">Peixe grelhado, arroz e legumes refogados</h3>
+                        <dl class="mt-4 grid grid-cols-4 gap-2 text-center">
+                            <div><dt class="text-xs text-tinta/70">Calorias</dt><dd class="font-bold">400</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Proteína</dt><dd class="font-bold">30 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Carbo</dt><dd class="font-bold">45 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Gordura</dt><dd class="font-bold">11 g</dd></div>
+                        </dl>
+                    </div>
+                </article>
+
+                <!-- Prato 5 (doce) -->
+                <article class="bg-white rounded-2xl border border-tinta/10 overflow-hidden">
+                    <div class="relative">
+                        <img src="prato5-chia.png" alt="Pudim de chia com morangos em um copo de vidro" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                        <span class="absolute left-3 top-3 rounded-md bg-rosa-bg text-rosa-tx text-xs font-bold px-2 py-1">Doce fit</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-titulo font-bold">Pudim de chia com frutas</h3>
+                        <dl class="mt-4 grid grid-cols-4 gap-2 text-center">
+                            <div><dt class="text-xs text-tinta/70">Calorias</dt><dd class="font-bold">170</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Proteína</dt><dd class="font-bold">6 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Carbo</dt><dd class="font-bold">18 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Gordura</dt><dd class="font-bold">8 g</dd></div>
+                        </dl>
+                    </div>
+                </article>
+
+                <!-- Prato 6 (bebida) -->
+                <article class="bg-white rounded-2xl border border-tinta/10 overflow-hidden">
+                    <div class="relative">
+                        <img src="prato6-suco.png" alt="Garrafa de suco verde natural de 300 ml sobre uma tábua de madeira" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                        <span class="absolute left-3 top-3 rounded-md bg-azul-bg text-azul-tx text-xs font-bold px-2 py-1">Bebida</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-titulo font-bold">Suco verde natural, 300 ml</h3>
+                        <dl class="mt-4 grid grid-cols-4 gap-2 text-center">
+                            <div><dt class="text-xs text-tinta/70">Calorias</dt><dd class="font-bold">65</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Proteína</dt><dd class="font-bold">2 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Carbo</dt><dd class="font-bold">14 g</dd></div>
+                            <div><dt class="text-xs text-tinta/70">Gordura</dt><dd class="font-bold">0 g</dd></div>
+                        </dl>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="mt-6 text-xs text-tinta/70">
+                Pratos e valores nutricionais fictícios, criados para esta atividade.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- 5. CONTATO + RODAPÉ -->
+    <section id="contato" class="scroll-mt-20 border-t border-tinta/10">
+        <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
+
+            <div class="bg-white rounded-3xl border border-tinta/10 p-8 md:p-12 text-center">
+                <h2 class="font-titulo text-3xl font-bold">Receba o cardápio no seu WhatsApp</h2>
+                <p class="mt-3 max-w-xl mx-auto text-tinta/80">
+                    Fale com a gente, tire suas dúvidas e peça sua primeira marmita sem compromisso.
+                </p>
+
+                <!-- WhatsApp: 55 (Brasil) + 11 (DDD) + 978600000 -->
+                <a href="https://wa.me/5511978600000?text=Oi!%20Quero%20receber%20o%20card%C3%A1pio%20do%20Prato%20Base."
+                   target="_blank" rel="noopener"
+                   class="mt-8 inline-block bg-acao hover:bg-acao-escuro text-white px-8 py-3 font-bold rounded-xl">
+                    Quero receber o cardápio
+                </a>
+
+                <p class="mt-4 text-sm text-tinta/70">
+                    Ou escreva para <a href="mailto:contato@pratobase.example" class="underline underline-offset-2 hover:text-marca">contato@pratobase.example</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="border-t border-tinta/10">
+        <div class="max-w-5xl mx-auto px-6 py-6 text-center text-xs text-tinta/70">
+            © 2026 Prato Base. Marca fictícia criada para fins didáticos.
+        </div>
+    </footer>
+
+</body>
+</html>
